@@ -17,7 +17,6 @@ function onStartBtnClick() {
 
     timeoutId = setInterval(() => {
         const randomColor = colors[randomIntegerFromInterval(0, colors.length - 1)];
-        // console.log(randomColor);
         body.style.backgroundColor = randomColor;
     }, CHANGE_DELAY); 
     };
@@ -26,3 +25,4 @@ function onStopBtnClick() {
     clearInterval(timeoutId);
     startBtn.removeAttribute('disabled');
 }
+
