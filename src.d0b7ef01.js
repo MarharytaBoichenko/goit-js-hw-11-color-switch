@@ -9,4 +9,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=require("./js/data.js"),t=require("./js/helpers.js"),s=require("./js/refs.js");const{startBtn:r,stopBtn:n,body:l}=s.refs;let o=null;const a=1e3;function i(){r.setAttribute("disabled",!0),o=setInterval(()=>{const s=e.colors[(0,t.randomIntegerFromInterval)(0,e.colors.length-1)];l.style.backgroundColor=s},a)}function c(){clearInterval(o),r.removeAttribute("disabled")}r.addEventListener("click",i),n.addEventListener("click",c);
 },{"./sass/main.scss":"clu1","./js/data.js":"QHdL","./js/helpers.js":"EDcV","./js/refs.js":"VyiV"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-color-switch/src.6d9dd33a.js.map
+//# sourceMappingURL=/goit-js-hw-11-color-switch/src.d0b7ef01.js.map
